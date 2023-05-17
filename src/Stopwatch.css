@@ -1,0 +1,45 @@
+.container {
+    background-color: white;
+    width: 40vw;
+    height: 35vh;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.stopwatch {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.elapsed-time {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.start-button,
+.stop-button,
+.reset-button {
+    font-size: 18px;
+    padding: 7px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.start-button {
+    background-color: #3d8d40;
+    color: white;
+}
+
+.stop-button {
+    background-color: #d63428;
+    color: white;
+}
+
+.reset-button {
+    background-color: #3c798d;
+    color: white;
+}
